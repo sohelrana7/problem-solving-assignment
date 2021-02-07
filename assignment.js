@@ -12,6 +12,7 @@ kilometerToMeter();
 
 
 
+
 function budgetCalculator(watch, mobile, laptop){
     var totalAmount = 0;
     var watchCost = watch * 50;
@@ -23,6 +24,9 @@ function budgetCalculator(watch, mobile, laptop){
 }
 
 budgetCalculator();
+
+
+
 
 
 
@@ -55,6 +59,8 @@ hotelCost(15);
 
 
 
+
+
 function megaFriend(names) {
     var friendName = 0;
     var longest;
@@ -65,11 +71,10 @@ function megaFriend(names) {
             longest = names[i];
         }
     }
-    console.log(longest);
     return longest;
 }
 
-megaFriend(['Ms Sohel rana', 'Alamin Hossen', 'Sohel Parvez', 'Rakibul Islam', 'Aminul Islam']);
+megaFriend();
 
    
 
